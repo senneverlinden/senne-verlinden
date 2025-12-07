@@ -1,5 +1,3 @@
-
-
 // Jaar automatisch invullen in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -13,4 +11,4 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Marker op Boom zetten
 var marker = L.marker([51.0897, 4.3706]).addTo(map);
-marker.bindPopup('<b>Boom, An
+marker.bindPopup('<b>Boom, Antwerpen</b><br>Hier ben ik gevestigd!').openPopup();
